@@ -6,7 +6,7 @@ on:
 
 jobs:
 
-  build:
+  build:https://github.com/shubham103/GoProj1/tree/develop
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -21,3 +21,8 @@ jobs:
 
     - name: Build
       run: go build main.go
+    
+    - name: test binary
+      run : |
+        ls
+        ./main

@@ -2,3 +2,5 @@ Creating this file to test github workflow for testing and uploading artifact to
 
 Testing to create release tag on master branch
 
+Testing s3 with public access blocked
+
